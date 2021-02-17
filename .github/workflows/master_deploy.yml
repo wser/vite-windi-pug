@@ -27,11 +27,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
-          git-config-email: ${{ secrets.MY_EMAIL}}
-          git-config-name: ${{ secrets.MY_USERNAME}}
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
-
-# Warning: Unexpected input(s) 'github_token', valid inputs are ['ssh-key', 'token', 'branch', 'folder', 'target-folder', 'commit-message', 'clean', 'clean-exclude', 'dry-run', 'git-config-name', 'git-config-email', 'repository-name', 'workspace', 'single-commit', 'silent']
-
