@@ -1,6 +1,7 @@
 {
   "name": "vite-windi-pug",
-  "version": "0.1.1",
+  "description": "Basic Vite setup for fast and enjoyable prototyping 'n production with composable modern dev techs (Vue 3, Tailwind, Pug) and auto deployment on push through gh-pages branch",
+  "version": "0.1.3",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
