@@ -1,18 +1,20 @@
 <template lang="pug">
 h1 {{ msg }}
-
 p
   a(href="https://vitejs.dev/guide/features.html" target="_blank") Vite Documentation 
   i &nbsp;|&nbsp;
   a(href="https://v3.vuejs.org/" target="_blank") Vue 3 Documentation
 
-button(@click="state.count++" class="button hover:text-red-500 hover:color-yellow-200") count is: {{ state.count }}
+button(@click="state.count++" class="button hover:text-red-500 hover:color-yellow-200 p-4") count is: {{ state.count }}
 
-p Edit&nbsp;
-  code components/HelloWorld.vue&nbsp;
-  to test hot module replacement.
+p(class="border-1 border-dashed border-yellow-300")
 
 HelloMarkdown
+
+p(class="border-2 border-dashed border-light-gray-500")
+
+//- added with vite-plugin-components
+HelloTailwind  
   
 </template>
 
@@ -31,4 +33,5 @@ const state = reactive({ count: 0 })
 a {
   color: #42b983;
 }
+
 </style>
