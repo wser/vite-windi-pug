@@ -1,7 +1,7 @@
 <template>
   <div
     class="px-5 p-1 text-green hover:text-green-100"
-    :class="{ 'bg-teal-100': true, 'hover:w-1/3': true }"
+    :class="{ 'bg-teal-100': true, 'hover:w-1/2': true }"
   >
     Hello World
   </div>

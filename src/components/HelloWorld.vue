@@ -6,7 +6,7 @@ p
   i &nbsp;|&nbsp;
   a(href="https://v3.vuejs.org/" target="_blank") Vue 3 Documentation
 
-button(@click="state.count++") count is: {{ state.count }}
+button(@click="state.count++" class="button hover:text-red-500 hover:color-yellow-200") count is: {{ state.count }}
 
 p Edit&nbsp;
   code components/HelloWorld.vue&nbsp;
