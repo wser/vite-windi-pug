@@ -11,10 +11,13 @@ button(@click="state.count++" class="button hover:text-red-500 hover:color-yello
 p Edit&nbsp;
   code components/HelloWorld.vue&nbsp;
   to test hot module replacement.
+
+HelloMarkdown
   
 </template>
 
 <script setup>
+import HelloMarkdown from './README.md'
 import { defineProps, reactive } from 'vue'
 
 defineProps({
