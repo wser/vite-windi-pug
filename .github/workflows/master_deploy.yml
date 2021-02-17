@@ -18,10 +18,14 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install and Build 🔧
-        run: |
-          npm install
+      - name: Install Dependencies 🔧
+        run: npm install
 
-      - name: Deploy to GH Pages
-        run: |
-          npm run deploy
+      - name: Building App
+        run: npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          publish_dir: ./dist
