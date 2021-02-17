@@ -1,6 +1,7 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+<template lang="pug">
+img(alt="Vue logo" src="./assets/logo.png")
+HelloWorld msg="Hello Vue 3 + Vite + PUG"
+p Hi
 </template>
 
 <script setup>
