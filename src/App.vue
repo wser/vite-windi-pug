@@ -1,5 +1,5 @@
 <template lang="pug">
-img(alt="Vue logo" src="./assets/logo.png")
+img(alt="Vue logo" src="./assets/logo-min.png")
 HelloWorld msg="Hello Vue 3 + Vite + PUG"
 p Hi
 </template>
