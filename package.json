@@ -1,6 +1,7 @@
 {
   "name": "vite-windi-pug",
-  "description": "Lite Vite setup for fast and enjoyable prototyping 'n production with composable modern dev techs (Vue 3, Pug) and auto deployment on push through gh-pages branch plus some plugins: (Tailwind, Markdown)",
+  "description": "Lite Vite setup for fast and enjoyable prototyping 'n production with composable modern dev techs (Vue 3, Pug) and auto deployment on push through gh-pages branch plus some plugins: (Tailwind-windicss)",
+  "author": "wser",
   "version": "0.1.3",
   "scripts": {
     "dev": "vite",
@@ -14,6 +15,7 @@
     "@vitejs/plugin-vue": "^1.1.4",
     "@vue/compiler-sfc": "^3.0.5",
     "pug": "^3.0.0",
-    "vite": "^2.0.0"
+    "vite": "^2.0.0",
+    "vite-plugin-windicss": "^0.2.2"
   }
 }

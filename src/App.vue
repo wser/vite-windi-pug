@@ -2,11 +2,15 @@
 img(alt="Vue logo" src="./assets/logo-min.png")
 HelloWorld msg="Hello Vue 3 + Vite + PUG"
 p Hi
-b {{pjson.description}}
+div {{ pjson.description }}
+br
+br
+HelloTailwind
 </template>
 
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import HelloTailwind from './components/HelloTailwind.vue'
 import pjson from '../package.json'
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
